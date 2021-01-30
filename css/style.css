@@ -1,0 +1,90 @@
+/*Shadow text*/
+.slider h3,
+.slider h5,
+.clients h3 {
+   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.row-padding {
+   padding: 0 20px
+}
+
+/*Parallax Images dibuat persen agar ngikutin saat dikecilkan*/
+.parallax-container {
+   height: 250px;
+}
+
+.parallax img {
+   filter: grayscale(1);
+   opacity: 0, 5 !important;
+}
+
+/* Image Portfolio margin */
+.portfolio img {
+   width: 200px;
+   height: 200px;
+}
+
+/* Image Portfolio margin */
+.responsive-img {
+   margin: auto;
+}
+
+/*Clien Images*/
+.clients img {
+   max-width: 150%;
+   height: 70px;
+   filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0, 5));
+}
+
+/*for class Section*/
+section {
+   padding: 20px 0;
+}
+
+/* text dropbox */
+.dropdown-content {
+   left: 1200px !important;
+   width: auto !important;
+}
+
+/* text dropbox */
+.dropdown-content li a {
+   color: #ffffff !important;
+}
+
+/* logo img */
+.nav-wrapper img {
+   margin-top: 5px;
+   max-width: 60px;
+   max-height: 50px;
+}
+
+/* Sosmed Icon */
+.sosmed {
+   max-width: 30px;
+   max-height: 30px;
+}
+
+/* h4 */
+.about h4 {
+   text-align: center;
+}
+
+/* Paragraf */
+.service p,
+.about p {
+   text-align: justify !important;
+}
+
+
+@media(max-width: 540px) {
+
+   .responsive-img .materialboxed {
+      text-align: center;
+   }
+
+   .parallax-container {
+      height: 50%;
+   }
+}
